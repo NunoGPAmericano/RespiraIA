@@ -1,0 +1,39 @@
+# =========================
+# 1. SEGURANÇA E CHAVES
+# =========================
+.env
+.env.local
+*.pem
+secrets.*
+
+# =========================
+# 2. SISTEMAS OPERATIVOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# 3. EDITORES E IDEs
+# =========================
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 4. PASTAS DE BUILD GENÉRICAS
+# =========================
+/build/
+/dist/
+/out/
+node_modules/
